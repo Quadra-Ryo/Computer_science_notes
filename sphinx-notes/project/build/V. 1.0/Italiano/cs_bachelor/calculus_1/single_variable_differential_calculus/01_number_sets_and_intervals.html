@@ -447,8 +447,8 @@ document.write(`
 <strong>È un intervallo aperto</strong></p>
 <p>B = {x ∈ ℝ : 1 ≤ x &lt; 2 oppure 6 &lt; x &lt; 7}<br />
 <img alt="Interval" src="../../../_images/interval_B.png" />
-<strong>Non è un intervallo</strong><br />
-Spiegazione: Prendiamo <strong>x</strong> appartenente all’intervallo [1, 2) ad esempio 1.5 e <strong>y</strong> appartenente all’intervallo (6, 7) ad esempio 6.3.<br />
+<strong>Non è un intervallo</strong></p>
+<p>Spiegazione: Prendiamo <strong>x</strong> appartenente all’intervallo [1, 2) ad esempio 1.5 e <strong>y</strong> appartenente all’intervallo (6, 7) ad esempio 6.3.<br />
 Andando a prendere un numero <strong>z</strong> maggiore di 1.5 e minore di 6.3 ad esempio 5 possiamo vedere che il numero non appartiene all’intervallo B proposto dall’esercizio e per questo B non è un intervallo.</p>
 <br>
 <!-- Versions and languages set-up -->
@@ -569,7 +569,8 @@ Andando a prendere un numero <strong>z</strong> maggiore di 1.5 e minore di 6.3 
       <span class="fa caret-icon fa-caret-down" aria-hidden="true"></span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">Italiano</a>
+      	<a href="#" role="option">English</a>
+				<a href="#" role="option">Italiano</a>
     </div>
   </div>
 </div>
@@ -578,8 +579,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const bar = document.querySelector('.fixed-bar');
   const dropdowns = bar.querySelectorAll('.dropdown');
-  const defaultLang = 'Italiano';
-  const languages = ["Italiano"];
+  const defaultLang = 'English';
+  const languages = ["English", "Italiano"];
   const versions = ["V. 1.0"];
 
   // ---------------------------

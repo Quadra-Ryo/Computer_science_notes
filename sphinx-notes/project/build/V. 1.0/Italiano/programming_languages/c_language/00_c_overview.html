@@ -438,7 +438,8 @@ document.write(`
       <span class="fa caret-icon fa-caret-down" aria-hidden="true"></span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">Italiano</a>
+      	<a href="#" role="option">English</a>
+				<a href="#" role="option">Italiano</a>
     </div>
   </div>
 </div>
@@ -447,8 +448,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const bar = document.querySelector('.fixed-bar');
   const dropdowns = bar.querySelectorAll('.dropdown');
-  const defaultLang = 'Italiano';
-  const languages = ["Italiano"];
+  const defaultLang = 'English';
+  const languages = ["English", "Italiano"];
   const versions = ["V. 1.0"];
 
   // ---------------------------

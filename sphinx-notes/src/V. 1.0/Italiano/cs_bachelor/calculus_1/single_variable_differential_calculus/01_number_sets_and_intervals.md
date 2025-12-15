@@ -59,5 +59,6 @@ A = {x ∈ ℝ : 2 < x < 3}
 B = {x ∈ ℝ : 1 ≤ x < 2 oppure 6 < x < 7}   
 ![Interval](media/interval/interval_B.png)
 **Non è un intervallo**  
+  
 Spiegazione: Prendiamo **x** appartenente all'intervallo [1, 2) ad esempio 1.5 e **y** appartenente all'intervallo (6, 7) ad esempio 6.3.  
 Andando a prendere un numero **z** maggiore di 1.5 e minore di 6.3 ad esempio 5 possiamo vedere che il numero non appartiene all'intervallo B proposto dall'esercizio e per questo B non è un intervallo.
