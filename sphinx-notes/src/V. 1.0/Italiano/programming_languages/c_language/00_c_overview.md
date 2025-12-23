@@ -24,3 +24,11 @@ Sebbene la curva di apprendimento iniziale possa sembrare ripida, i concetti app
 ## Perché studiare il C oggi?
 
 Studiare il C non significa solo imparare un linguaggio, ma capire **come funziona un computer**. È ancora oggi il cuore pulsante dei sistemi operativi (Linux, Windows, macOS), dei driver, dei sistemi embedded e dei motori grafici ad alte prestazioni.
+
+```{toctree}
+:hidden:
+:caption: Indice
+:maxdepth: 1
+
+01_c_compiler.md
+```

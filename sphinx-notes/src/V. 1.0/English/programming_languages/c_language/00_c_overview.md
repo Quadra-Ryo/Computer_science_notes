@@ -24,3 +24,12 @@ While the initial learning curve can be steep, the concepts you master in C—su
 ## Why study C today?
 
 Even though it is "old," C remains the backbone of modern computing. It is the language of operating systems (Windows, Linux, macOS), embedded systems, high-performance engines, and even the compilers of other languages. Learning C isn't just about writing code; it's about understanding **how a computer actually works**.
+
+
+```{toctree}
+:hidden:
+:caption: Indice
+:maxdepth: 1
+
+01_c_compiler.md
+```
